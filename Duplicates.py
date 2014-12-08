@@ -18,7 +18,7 @@ def read_questions():
     for i in range(N_train): 
         temp = sys.stdin.readline().strip().split(' ') 
         trainids.append(temp[:2])
-        trainlabels.append(int(temp[-1])  
+        trainlabels.append(int(temp[-1])) 
     
     N_test = int(sys.stdin.readline() ) 
     for i in range(N_test): 
